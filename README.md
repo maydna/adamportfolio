@@ -1,2 +1,2 @@
 # adamportfolio
-This is my portfolio
+This is my professional portfolio using AWS and React
