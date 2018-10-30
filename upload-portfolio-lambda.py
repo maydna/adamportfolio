@@ -29,5 +29,5 @@ def lambda_handler(event, context):
         topic.publish(Subject="Your Portfolio Deployment has failed",Message="Deployment has failed for thisisadamyang.com")
     return {
         "statusCode": 200,
-        "body": json.dumps('Hello from Lambda!')
+        "body": json.dumps('TTTTTesting!')
     }
