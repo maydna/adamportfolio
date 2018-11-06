@@ -8,6 +8,5 @@ artifacts:
   files:
     - index.html
     - css/*
-    - fonts/*
     - images/*
     - js/*
