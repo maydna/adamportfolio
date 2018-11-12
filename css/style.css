@@ -8,6 +8,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
   	background: #FFf;
+    font-weight: bold;
 }
 body a{
 	transition:0.5s all;
@@ -21,13 +22,13 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url(../images/header-bg1.jpg) no-repeat 0px -350px;
+    background: url(../images/header-bg.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height:650px;
+    min-height:200px;
 	position: relative;
 }
 .top-header {
@@ -88,7 +89,7 @@ span.menu{
 	overflow: hidden;
 	padding: 10px 0;
 	max-width: 0;
-	border-bottom: 3px solid #38308B;
+	border-bottom: 0px solid #38308B;
     color: #38308B;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
@@ -101,7 +102,7 @@ span.menu{
 /*--banner-info--*/
 .banner-info {
     background:rgba(23, 20, 20, 0.58);
-    margin-top: 4em;
+    margin-top: 1em;
 }
 .header-left {
     padding: 3em;
@@ -171,9 +172,10 @@ ul.address {
 }
 .header-right h6 {
        font-size: 1em;
-    color: #C7C7C7;
+    color: #FFFFFF;
     margin-top: 0.8em;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
     text-transform: uppercase;
 }
 ul.address {
@@ -569,9 +571,9 @@ span.border.one:after {
 	color:#fff;
 }
 .wthree_about_right_grid_right h4{
-	text-transform: uppercase;
+
     font-size: 1.2em;
-    color: #38308B;
+    color: #FFFFFF;
     font-weight: bold;
 }
 .wthree_about_right_grid_right p{
@@ -597,7 +599,7 @@ span.border.one:after {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background:#38308B;
+  background:#FFFFFF;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -607,32 +609,7 @@ span.border.one:after {
     text-align: center;
 	    border-radius: 50%;
 }
-.hvr-rectangle-in:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background:#F5F5F5;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-      border-radius: 50%;
-}
-.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
-  color: white;
-}
-.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before,.wthree_about_right_grid:hover .hvr-rectangle-in:before,.agileits_services_grid:hover .hvr-rectangle-in:before{
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
+
 .wthree_about_right_grids {
      margin-top: 4em;
 }
@@ -651,7 +628,8 @@ span.border.one:after {
 .timeline {
   list-style: none;
       padding: 10px 0 10px;
-  position: relative;
+  position:relative;
+  margin-left: 0%;
 }
 .timeline:before {
       top: 0;
@@ -665,8 +643,9 @@ span.border.one:after {
 }
 
 .timeline > li {
-  margin-bottom:10px;
+  margin-bottom:5%;
   position: relative;
+  margin-right:15%;
 }
 
 .timeline > li:before,
@@ -703,7 +682,6 @@ h4.timeline-title a:hover {
     margin: 0;
     padding: 0;
     color: #777;
-    line-height: 1.9em;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -740,7 +718,7 @@ h4.timeline-title a:hover {
   top: 16px;
   left: -33px;
   margin-right: -25px;
-  background-color: #999999;
+  background-color: #FFFFFF;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -749,7 +727,7 @@ h4.timeline-title a:hover {
 }
 
 .timeline-badge.primary {
-  background-color: #eb5424 !important;
+  background-color: #e;
 }
 
 .timeline-badge.success {
@@ -806,6 +784,8 @@ ul.year li:nth-child(5){
 }
 .time-main {
     margin-top: 3em;
+    margin-left: 10%;
+    margin-right: 0;
 }
 /*--//work--*/
 /*-- portfolio --*/
@@ -1382,12 +1362,12 @@ span.border.two:after {
 	}
 	.banner-info {
 		background: rgba(47, 44, 44, 0.58);
-		margin-top:3em;
+		margin-top:0em;
 	}
 	ul.address li ul.address-text li {
 		display: inline-block;
 		font-size: 0.9em;
-		margin-top: 1em;
+		margin-top: 0em;
 	}
 	ul.address li ul.address-text li:nth-child(1) {
 		width: 26%;
@@ -1653,7 +1633,7 @@ span.border.two:after {
 		width:100%;
 	}
 	.banner-info {
-		margin-top: 2em;
+		margin-top: 0em;
 	}
 	.wthree_about_right_grid:nth-child(2) {
 		margin-bottom: 1em;
