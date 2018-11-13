@@ -8,7 +8,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
   	background: #FFf;
-    font-weight: bold;
+
 }
 body a{
 	transition:0.5s all;
@@ -447,7 +447,7 @@ span.border.one:after {
 .about-left-grid{
 	width:70%;
 	float:right;
-    margin-right: 10em;
+    margin-right: 13em;
 	min-height:433px;
 }
 .about-left-grid h2{
