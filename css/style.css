@@ -447,7 +447,7 @@ span.border.one:after {
 .about-left-grid{
 	width:70%;
 	float:right;
-    margin-right: 13em;
+    margin-right: 10em;
 	min-height:433px;
 }
 .about-left-grid h2{
@@ -460,7 +460,7 @@ span.border.one:after {
 .about-left-grid p{
     color: #666666;
     font-size:1em;
-    line-height: 2em;
+
     margin-top: 1.5em;
 }
 .about-left-grid ul{
@@ -1294,7 +1294,7 @@ span.border.two:after {
 	}
 	.about-left-grid p {
 		font-size:0.9em;
-		line-height: 2em;
+
 		margin-top: 0.5em;
 	}
 }
