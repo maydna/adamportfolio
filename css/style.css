@@ -22,7 +22,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url(../images/header-bg.png) no-repeat 0px 0px;
+    background: url(../images/header-bg.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1190,7 +1190,7 @@ span.border.two:after {
 }
 /*-- footer --*/
 .footer {
-    background: url(../images/header-bg1.jpg) no-repeat center bottom;
+    background: url(../images/header-bg.jpg) no-repeat center bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
