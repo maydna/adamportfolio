@@ -1,4 +1,3 @@
 # adamportfolio
-This is my professional portfolio using AWS and React
 
-test SSH key
+<div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
